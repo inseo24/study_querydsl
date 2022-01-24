@@ -12,5 +12,5 @@ internal class QuerydslConfig (
     val entityManager: EntityManager
 ){
     @Bean
-    fun jpqQueryFactory() = JPAQueryFactory(entityManager)
+    fun jpaQueryFactory() = JPAQueryFactory(entityManager)
 }

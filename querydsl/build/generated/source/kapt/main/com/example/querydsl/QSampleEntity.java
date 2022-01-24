@@ -31,7 +31,7 @@ public class QSampleEntity extends EntityPathBase<SampleEntity> {
         super(SampleEntity.class, forVariable(variable));
     }
 
-    public QSampleEntity(Path<SampleEntity> path) {
+    public QSampleEntity(Path<? extends SampleEntity> path) {
         super(path.getType(), path.getMetadata());
     }
 

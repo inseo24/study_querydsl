@@ -1,6 +1,6 @@
 package com.example.querydsl
 
-class SampleResponseDto (
+data class SampleResponseDto (
     var address: String? = null,
     var etc: String? = null
 )

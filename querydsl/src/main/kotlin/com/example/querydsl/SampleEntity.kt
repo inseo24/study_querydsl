@@ -6,7 +6,8 @@ import javax.persistence.Entity
 import javax.persistence.Id
 
 @Entity
-@DynamicInsert @DynamicUpdate
+@DynamicInsert
+@DynamicUpdate
 class SampleEntity (
     @Id
     val id: Int,

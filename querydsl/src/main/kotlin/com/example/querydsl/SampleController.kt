@@ -8,10 +8,10 @@ class SampleController(
     val sampleService: SampleService
 ) {
     @PostMapping
-    fun createSample(@RequestBody request: SampleEntity) =
+    fun createSample(@RequestBody request: SampleRequestDto) =
         sampleService.createSample(request)
 
     @PutMapping
-    fun updateSample(@RequestBody request: SampleDto) =
+    fun updateSample(@RequestBody request: SampleRequestDto) =
         sampleService.updateSample(request)
 }

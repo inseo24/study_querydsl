@@ -1,2 +1,2 @@
 - querydsl 공식 문서 한국어 번역
-https://querydsl.com/static/querydsl/4.0.1/reference/ko-KR/html_single/#tutorials}
+	- https://querydsl.com/static/querydsl/4.0.1/reference/ko-KR/html_single/#tutorials}

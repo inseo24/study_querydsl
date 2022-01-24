@@ -1,6 +1,6 @@
 package com.example.querydsl
 
-class SampleDto (
+class SampleRequestDto (
     val id: Int,
     var name: String? = null,
     var address: String? = null,

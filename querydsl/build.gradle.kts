@@ -30,6 +30,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     runtimeOnly("com.h2database:h2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("org.modelmapper:modelmapper:2.4.5")
 
     // Querydsl
     implementation("com.querydsl:querydsl-jpa")
